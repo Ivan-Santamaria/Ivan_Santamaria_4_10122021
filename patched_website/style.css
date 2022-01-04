@@ -56,6 +56,12 @@ a:hover {
     padding: 20px 50px;
 }
 
+.img-metier
+{
+    width: auto;
+    height: auto;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -482,7 +488,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .icon-lg {
