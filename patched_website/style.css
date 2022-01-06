@@ -55,11 +55,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-.img-logo {
-    width: 11em;
-    height: 100%;
-    object-fit: cover;
-}
+
 .img-metier
 {
     width: 100%;
@@ -102,7 +98,8 @@ a:hover {
 }
 .center-block
 {
-    width: auto;
+    width: 11em;
+    height: 100%;
 }
 .texture-paper::before {
     background: url("./img/texture-paper.webp");
@@ -315,7 +312,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 2.2em;
+    height: 2.2em;
+    width: 11.5em;
     margin: 0 5px 0 0;
     display: inline;
 }
