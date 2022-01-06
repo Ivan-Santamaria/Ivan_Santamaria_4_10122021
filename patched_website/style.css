@@ -29,7 +29,7 @@ a:hover {
 
 @font-face {
     font-family: "helvetica", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Open Sans", Helvetica, Arial;
-    src: url(./fonts/fontawesome-webfont.woff2);
+    src: url(./fonts/fontawesome-webfont.woff2) format(.woff2);
     src: url(./fonts/fontawesome-webfont.woff);
     src: url(./fonts/FontAwesome.otf);
     src: url(./fonts/fontawesome-webfont.ttf);
@@ -117,7 +117,7 @@ a:hover {
     height: 100%;
 }
 .texture-paper::before {
-    background: url("./img/texture-paper.webp");
+    /* background: url("./img/texture-paper.webp"); */
     background-size: 280px 280px;
 }
 
@@ -307,7 +307,10 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
+#bloc-1-hero
+{
+    background-color: black;
+}
 #bloc-1-hero h1 {
     font-size: 4em;
 }
