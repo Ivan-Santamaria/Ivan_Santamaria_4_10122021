@@ -27,6 +27,21 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+@font-face {
+    font-family: "helvetica", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Open Sans", Helvetica, Arial;
+    src: url(./fonts/fontawesome-webfont.woff2);
+    src: url(./fonts/fontawesome-webfont.woff);
+    src: url(./fonts/FontAwesome.otf);
+    src: url(./fonts/fontawesome-webfont.ttf);
+    src: url(./fonts/fontawesome-webfont.svg);
+    src: url(./fonts/fontawesome-webfont.eot);
+    src: url(./fonts/et-line.woff);
+    src: url(./fonts/et-line.ttf);
+    src: url(./fonts/et-line.svg);
+    src: url(./fonts/et-line.eot);
+    font-display: swap
+}
+
 .bloc {
     width: 100%;
     clear: both;
