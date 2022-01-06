@@ -55,11 +55,16 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.img-logo {
+    width: 11em;
+    height: 100%;
+    object-fit: cover;
+}
 .img-metier
 {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bg-center,
@@ -791,7 +796,6 @@ h4 {
 
 .tc-white {
     color: white!important;
-    background-color: transparent !important;
 }
 
 .btn-atomic-tangerine {
