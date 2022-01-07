@@ -113,6 +113,8 @@ a:hover {
 }
 
 .d-bloc {
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .d-bloc button:hover {
@@ -500,8 +502,28 @@ button {
 }
 
 .icon-md {
+    color: black!important;
     font-size: 50px!important;
 }
+.icon-md:hover.fa-twitter:before{
+    color: white;
+    transition-duration: .3s;
+}
+.icon-md:hover.fa-facebook:before {
+    color: white;
+    transition-duration: .3s;
+}
+.icon-md:hover.fa-instagram:before {
+    color: white;
+    transition-duration: .3s;
+}
+.icon-md:hover.fa-dribbble:before {
+    color: white;
+    transition-duration: .3s;
+}
+
+
+
 
 .icon-lg {
     font-size: 60px!important;
@@ -798,7 +820,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f97a3f;
 }
 
 .tc-white {
@@ -806,13 +828,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f97a3f;
     color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F39735 !important;
-    color: black !important;
+    background: #F3976C!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -824,11 +846,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f97a3f!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {
