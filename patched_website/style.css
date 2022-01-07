@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -295,14 +294,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-#bloc-1-hero
-{
-    background-color: black;
-}
-#bloc-5-cta
-{
-    background-color: black;
 }
 #bloc-1-hero h1 {
     font-size: 4em;
