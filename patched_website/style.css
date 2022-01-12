@@ -407,6 +407,7 @@ a:hover {
     .nav-center {
         text-align: center;
     }
+    
     .nav-center .navbar-header {
         width: 100%;
     }
@@ -702,14 +703,18 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+label{
+    font-weight: 600;
+}
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
     font-size: 38px;
+  font-weight: 700;
 }
+
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -731,7 +736,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto auto auto auto
 }
 
 .h1 {
@@ -751,6 +756,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -774,6 +782,17 @@ h4 {
     font-size: 1.6em;
     color: #333333!important;
 }
+.signature
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
 .lien-partenaire
 {
     color: #333333!important; 
@@ -788,6 +807,8 @@ h4 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -808,6 +829,14 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact
+{
+    font-weight: 600;
 }
 
 .avatar {
@@ -917,6 +946,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -996,6 +1026,7 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
+    
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
@@ -1091,6 +1122,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+   
 }
 
 @media (max-width: 400px) {
@@ -1104,4 +1137,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
