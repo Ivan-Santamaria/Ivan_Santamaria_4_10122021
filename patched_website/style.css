@@ -522,7 +522,10 @@ button {
     transition-duration: .3s;
 }
 
-
+.text-chevron
+{
+display: none;
+}
 
 
 .icon-lg {
